@@ -2,7 +2,7 @@ YAML
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/"  # Обратите внимание на отступ
     schedule:
       interval: "daily"
     allow:
