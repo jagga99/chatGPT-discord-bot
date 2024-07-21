@@ -1,0 +1,9 @@
+YAML
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    allow:
+      - dependency-name: "gpt4free" # Обновлять только gpt4free
